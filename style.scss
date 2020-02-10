@@ -195,6 +195,7 @@
         padding: 3%;
         color: $color-light;
         display: flex;
+        position: relative;
 
         @include landscape{
             height: 100%;
