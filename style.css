@@ -390,6 +390,10 @@ body {
           transform: scale(1.5, 1.5);
 }
 
+.calendar .calEventContainer .actualEvent .current-day-events .calEventList li b + span {
+  display: none;
+}
+
 @media (orientation: landscape) {
   .calendar .calEventContainer .actualEvent .current-day-events {
     font-size: 1.5vw;

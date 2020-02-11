@@ -46,7 +46,7 @@ class CALENDAR {
 
     drawEvents() {
         let calendar = this.getCalendar();
-        let eventList = this.eventList[calendar.active.formatted] || [`What's up for today?`];
+        let eventList = this.eventList[calendar.active.formatted] || [`<b>What's up for today?</b>`];
         let eventTemplate = "";
         eventList.forEach(item => {
             eventTemplate += `<li>${item}<span class="calDel">X</span></li>`;
