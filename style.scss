@@ -9,7 +9,6 @@
     outline-style: none;
   }
   body {
-    background-color: $color-bk-grey ;
     color: $color-light;
    
   }
@@ -18,8 +17,10 @@
     position: absolute;
     height: 120vw;
     width: 80vw;
+    padding: 2vmin;
     background-color: $color-dark;
     border-radius: 3vmin;
+    border-radius: 20vmin 0 0 20vmin;
     overflow: hidden;
     left: 10vw;
     top: calc(50vh - 60vw);
@@ -29,6 +30,7 @@
     @include landscape{
         height: 70vh;
         width: 140vh;
+        border-radius: 0 15vmin 15vmin 0;
         top: 15vh;
         left: calc(50vw - 70vh);
         flex-direction: row;
@@ -40,7 +42,7 @@
         padding: 3%;
         background-color: $color-light;
         color: $color-dark;
-        border-radius: 25% 0 0 25%   ;
+        border-radius: 25% 0 0 25%;
         @include landscape{
             height: 100%;
             width: 60%;

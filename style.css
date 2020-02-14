@@ -8,7 +8,6 @@
 }
 
 body {
-  background-color: #e0e0e0;
   color: white;
 }
 
@@ -16,8 +15,10 @@ body {
   position: absolute;
   height: 120vw;
   width: 80vw;
-  background-color: #000c18;
+  padding: 2vmin;
+  background-color: #000040;
   border-radius: 3vmin;
+  border-radius: 20vmin 0 0 20vmin;
   overflow: hidden;
   left: 10vw;
   top: calc(50vh - 60vw);
@@ -34,6 +35,7 @@ body {
   .calendar {
     height: 70vh;
     width: 140vh;
+    border-radius: 0 15vmin 15vmin 0;
     top: 15vh;
     left: calc(50vw - 70vh);
     -webkit-box-orient: horizontal;
@@ -48,7 +50,7 @@ body {
   width: 100%;
   padding: 3%;
   background-color: white;
-  color: #000c18;
+  color: #000040;
   border-radius: 25% 0 0 25%;
 }
 
@@ -76,7 +78,7 @@ body {
 .calendar .calendarContainer .calYearContainer span {
   font-weight: bolder;
   font-size: 7vw;
-  color: #5a1426;
+  color: #800000;
   cursor: pointer;
 }
 
@@ -88,7 +90,7 @@ body {
 
 .calendar .calendarContainer .calYearContainer span:nth-child(even) {
   cursor: default;
-  color: #000c18;
+  color: #000040;
   padding: 0 3vw 0 3vw;
 }
 
@@ -135,7 +137,7 @@ body {
 }
 
 .calendar .calendarContainer .calMonthContainer .calMonth li.active {
-  background-color: #000c18;
+  background-color: #000040;
   color: white;
   font-size: bolder;
   padding: 0 .5%;
@@ -267,7 +269,7 @@ body {
 }
 
 .calendar .calendarContainer .calDayContainer .calDay li.active-day {
-  background-color: #000c18;
+  background-color: #000040;
   color: white;
   border-radius: 50%;
 }
@@ -361,7 +363,7 @@ body {
 }
 
 .calendar .calEventContainer .actualEvent .current-day-events .calEventList::-webkit-scrollbar {
-  background-color: #000c18;
+  background-color: #000040;
   width: 2%;
 }
 
@@ -415,7 +417,7 @@ body {
 }
 
 .calendar .calEventContainer .actualEvent .inputContainer .calEventInput {
-  background-color: #000c18;
+  background-color: #000040;
   color: white;
   border: 0;
   width: 95%;
